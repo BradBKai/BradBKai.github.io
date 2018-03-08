@@ -1,28 +1,77 @@
-<script>
+<!DOCTYPE html>
+  <html>
+   <head>
+ 
+    <!-- title -->
+    <title> {{ page.title }} </title>
+     
+    <!-- CSS Start -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <!-- CSS End -->
     
-// Get the modal
-var modal = document.getElementById('Modal');
+    <!--Javascript for Modal Start -->
+    <script>
+    
+    // Get the modal
+    var modal = document.getElementById('Modal');
 
-// Model button
-var btn = document.getElementById("Btn");
+    // Model button
+    var btn = document.getElementById("Btn");
 
-// Retrieve span for model
-var span = document.getElementsByClassName("close")[0];
+    // Retrieve span for model
+    var span = document.getElementsByClassName("close")[0];
 
-// Open model when X is clicked
-btn.onclick = function() {
+    // Open model when X is clicked
+    btn.onclick = function() {
     modal.style.display = "block";
-}
+    }
 
-/https://github.com/BradBKai/BradBKai.github.io/ Closes modal when X is clicked
-span.onclick = function() {
+    // Closes modal when X is clicked
+    span.onclick = function() {
     modal.style.display = "none";
-}
+    }
 
-// Closes modal when mouse clicks outside of modal
-window.onclick = function(event) {
+    // Closes modal when mouse clicks outside of modal
+    window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
         
-</script>
-
+    </script>
+    <!-- Javascript for Modal ends -->
+       
+    </head>
+  
+    <body>
+    
+      <!-- start nav -->
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/resume">Resume</a></li>
+          <li><a href="/ics">ICS Projects</a></li>
+          <li><a href="/projects">Coding Projects</a></li>
+        </ul>
+      </nav>
+      <!-- end nav -->  
+    
+      <!-- start .content -->
+      <div class="content">
+      
+        {{ content }}
+    
+      </div>
+      <!-- /.content -->
+      
+      <!-- footer -->
+      <footer>
+        <ul>
+          <li><a href="mailto:"bradbkai@gmail.com">Email: BradBKai@gmail.com</a></li>
+          <li><a href="https://github.com/BradBKai">Github</a></li>
+          <li><a href="https://linkedin.com/in/BradBKai">Linkedin</a></li>
+        </ul>
+      </footer>
+      <!-- end footer -->     
+        
+  </body>
+            
+</html>
