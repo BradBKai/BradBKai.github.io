@@ -2,6 +2,23 @@
 layout: default
 title: Coding  Projects
 ---
+
+ <!-- Trigger/Open The Modal -->
+<button id="Btn">Test</button>
+
+<!-- The Modal -->
+<div id="Modal" class="modal">
+
+<!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Test text.</p>
+  </div>
+
+</div> 
+
+<script>
+    
 // Get the modal
 var modal = document.getElementById('Modal');
 
@@ -25,17 +42,5 @@ span.onclick = function() {
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
-
- <!-- Trigger/Open The Modal -->
-<button id="Btn">Test</button>
-
-<!-- The Modal -->
-<div id="Modal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Test text.</p>
-  </div>
-
-</div> 
+        
+</script>
