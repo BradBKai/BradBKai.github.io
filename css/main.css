@@ -20,7 +20,7 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-div.os, id.alpha, id.beta {
+div.os, #alpha, #beta {
     text-align: center;
 }
 
