@@ -54,7 +54,7 @@ h1 {
     visibility: hidden;
 }
 
-.reveal-modal {
+.modal-content {
     position: relative;
     margin: 0 auto;
     top: 25%;
