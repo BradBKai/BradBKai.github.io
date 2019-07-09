@@ -8,9 +8,9 @@
     <!-- CSS Start
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     CSS End -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/boostrap/3.3.4/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -18,16 +18,16 @@
 	<div id="wrapper">
 		<!-- sideBar -->
 		<div id="sidebar-wrapper">
-			<title="sidebar-title">
+			<title id="sidebar-title">
 				<h1>Brad Kai</h1>
 				<p>Simple is nice.</p>
 			</title>
 			<ul class="sidebar-nav">
 				<li><a href="/">Home</a></li>
-          			<li><a href="/resume">Resume</a></li>
-          			<li><a href="/ics">ICS Courses</a></li>
-          			<li><a href="/data">Data Analytics</a></li>
-          			<li><a href="/projects">Projects</a></li>
+          		<li><a href="/resume">Resume</a></li>
+          		<li><a href="/ics">ICS Courses</a></li>
+          		<li><a href="/data">Data Analytics</a></li>
+          		<li><a href="/projects">Projects</a></li>
 			</ul>
 		</div>
 		<!-- page content -->
@@ -53,13 +53,15 @@
     
       <!-- start nav -->
       <nav>
+	<div class="topnav" id="myTopnav">
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/resume">Resume</a></li>
-          <li><a href="/ics">ICS Courses</a></li>
-          <li><a href="/data">Data Analytics</a></li>
-          <li><a href="/projects">Projects</a></li>
+          <a href="#home">Home</a>
+          <a href="#resume">Resume</a>
+		<a href="#ics">ICS Courses</a>
+          <a href="#data">Data Analytics</a>
+          <a href="#projects">Projects</a>
         </ul>
+	</div>
       </nav>
       <!-- end nav -->  
     
