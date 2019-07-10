@@ -1,3 +1,12 @@
+/* Add color to menu button */
+.menu {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
