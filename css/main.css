@@ -5,13 +5,13 @@
 }
 
 /* Top Bar color */
-.topnav ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding 0;
 }
 
-.topnav a {
+a {
   display: block;
   width: 40px;
   background-color: #333
