@@ -11,6 +11,13 @@ ul {
   padding 0;
 }
 
+li a {
+  display: block;
+  width: 60px;
+  background-color: #dddddd;
+  
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
