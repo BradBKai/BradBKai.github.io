@@ -32,6 +32,12 @@
   display: none;
 }
 
+/* Slimmer top navigation bar */
+.topnav {
+  margin-bottom: 0;
+  
+}
+
 /* Body */
 .body {
   background-color: #333;
