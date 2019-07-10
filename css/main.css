@@ -18,7 +18,7 @@
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: 204F15;
+  color: green;
 }
 
 /* Add an active class to highlight the current page */
@@ -34,7 +34,7 @@
 
 /* Slimmer top navigation bar */
 .topnav {
-  margin-bottom: 0;
+  margin-height:55;
   
 }
 
