@@ -5,13 +5,13 @@
 }
 
 /* Top Bar color */
-ul {
+.topnva ul {
   list-style-type: none;
   margin: 0;
   padding 0;
 }
 
-li a {
+.topnav a {
   display: block;
   width: 60px;
   background-color: #333
@@ -32,7 +32,7 @@ li a {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: 204F15;
 }
 
 /* Add an active class to highlight the current page */
