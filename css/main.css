@@ -4,6 +4,13 @@
   overflow: hidden;
 }
 
+/* Top Bar color */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding 0;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
