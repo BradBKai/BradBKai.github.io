@@ -3,18 +3,6 @@
   background-color: #333;
   overflow: hidden;
 }
-
-/* Top Bar color */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding 0;
-}
-
-a {
-  display: block;
-  width: 40px;
-  background-color: #333
   
 }
 
