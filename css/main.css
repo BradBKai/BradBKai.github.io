@@ -117,3 +117,9 @@
 .bradPic {
   border-radius: 50;
 }
+
+/* Profile font color */
+.profile {
+text-align: center;
+color: #f2f2f2;
+}
