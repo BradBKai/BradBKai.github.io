@@ -112,3 +112,8 @@
   background-color: #ddd;
   color: 204F15;
 }
+
+/* Circular images */
+.linkPics {
+  border-radius: 50;
+}
