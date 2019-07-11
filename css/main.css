@@ -119,7 +119,16 @@
 }
 
 /* Profile font color */
-.profile {
+.intro {
 text-align: center;
 color: #f2f2f2;
+}
+  
+.intro {
+  width: 100%;
+  text-align: center;
+}
+
+.sidenav {
+  display: inline-block;
 }
