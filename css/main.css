@@ -114,6 +114,10 @@
 }
 
 /* Circular images */
-.linkPics {
+.linkPics1 {
+  border-radius: 50;
+}
+
+.linkPics2 {
   border-radius: 50;
 }
