@@ -65,6 +65,6 @@
   .sidenav a {font-size: 18px;}
 }
 
-.mySidelinks {
-  display: inline-block;
+.myPic {
+  border-radius: 50%
 }
