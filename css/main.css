@@ -26,7 +26,6 @@
   color: white;
 }
 
-/* Side Navigation */
 .sidenav {
   height: 100%;
   width: 0;
@@ -44,7 +43,7 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #FFFFFF;
+  color: #818181;
   display: block;
   transition: 0.3s;
 }
@@ -62,5 +61,6 @@
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 16px;}
-  .sidenav a {font-size: 20px;}
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
