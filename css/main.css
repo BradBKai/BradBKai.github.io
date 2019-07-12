@@ -1,66 +1,97 @@
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+<!DOCTYPE html>
+  <html>
+   <head>
+ 
+    <!-- title -->
+    <title> {{ page.title }} </title>
+     
+    <!-- main CSS Start -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <!-- main CSS End -->
+    
+    <!-- js/css start -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- js/css end -->
+     
+    </head>
+    <body>
+         
+      <!-- start topnav -->
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <!-- start sidenav -->
+          <div class="sidenav" id="mySidenav">
+            <!-- end sidenav intro -->
+            <div class="navintro" id="myNavintro">
+              <img class="bradPic" src="https://BradBKai.github.io/files/bradimage.jpg" id="profilePic" alt="Brad's Picture" style="width:130px;height:155px;border:0;">
+              <h1>Brad Kai</h1>
+              <p>IT Professional. Dreamer. Sleepy.</p>
+            </div>
+            <!-- end sidenav intro -->
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="/">Home</a>
+                <a href="/resume">Resume</a>
+                <a href="/ics">ICS Courses</a>
+                <a href="/data">Data Analytics</a>
+                <a href="/projects">Projects</a>
+                <!--<a href="mailto:bradbkai@gmail.com"><img class="linkPics" src="https://BradBKai.github.io/files/emailimage.png" id="emailImage" alt="Email Pic" style="width:42px;height:22px;border:0;"></a>
+                <a href="https://github.com/BradBKai"><img class="linkPics" src="https://BradBKai.github.io/files/githubimage.png" id="linkPics1" alt="Github Icon" style="width:40px;height:22px;border:0;"></a>
+                <a href="https://linkedin.com/in/BradBKai"><img class="linkPics" src="https://BradBKai.github.io/files/linkedinimage.png" id="linkPics2" alt="Linkedin Icon" style="width:22px;height:22px;border:0;"></a>-->
+            <!-- end sidenav -->
+            </div>                     
+        <!-- end topnav -->
+        </div>
+      
+          <!-- Script to work the side navigation -->
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          <script>
+          function openNav() {
+              document.getElementById("mySidenav").style.width="250px";
+          }
+          function closeNav() {
+          document.getElementById("mySidenav").style.width="0";
+          }
+          </script>
+          <!-- End script  -->
+          <!-- end sideNav -->
+          <ul>
+            <a href="/">Home</a>
+            <a href="/resume">Resume</a>
+            <a href="/ics">ICS Courses</a>
+            <a href="/data">Data Analytics</a>
+            <a href="/projects">Projects</a>
+            <!--<a href="mailto:bradbkai@gmail.com"><img class="linkPics" src="https://BradBKai.github.io/files/emailimage.png" id="emailImage" alt="Email Pic" style="width:42px;height:22px;border:0;"></a>
+            <a href="https://github.com/BradBKai"><img class="linkPics" src="https://BradBKai.github.io/files/githubimage.png" id="linkPics1" alt="Github Icon" style="width:40px;height:22px;border:0;"></a>
+            <a href="https://linkedin.com/in/BradBKai"><img class="linkPics" src="https://BradBKai.github.io/files/linkedinimage.png" id="linkPics2" alt="Linkedin Icon" style="width:22px;height:22px;border:0;"></a>-->
+          </ul>
+        </div>
+      </nav>
+      <!-- end nav -->  
+    
+      <!-- start .content -->
+      <div class="content">
+      
+        {{ content }}
+  
+      </div>
+      <!-- /.content -->
+      
+      <!-- footer -->
+      <footer>
+        <div class="bottomInfo" id="myFooter">
+          <ul>
+            <a href="mailto:bradbkai@gmail.com">
+              <img class="linkPics" src="https://BradBKai.github.io/files/emailimage.png" id="emailImage" alt="Email Pic" style="width:70px;height:42px;border:0;"></a>
+            <a href="https://github.com/BradBKai">
+              <img class="linkPics" src="https://BradBKai.github.io/files/githubimage.png" id="linkPics1" alt="Github Icon" style="width:60px;height:42px;border:0;"></a>
+            <a href="https://linkedin.com/in/BradBKai">
+              <img class="linkPics" src="https://BradBKai.github.io/files/linkedinimage.png" id="linkPics2" alt="Linkedin Icon" style="width:42px;height:42px;border:0;"></a>                                                                                                                              
+          </ul>
+        </div>
+      </footer>
+      <!-- end footer -->   
+  
+  </body>
+            
+</html>
