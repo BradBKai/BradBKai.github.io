@@ -2,7 +2,7 @@
 	<html>
 		
 		<head>
-			
+
 			<meta charset="UTF 8">
 
 			<title>
@@ -23,7 +23,30 @@
 
 			</div> 
 			<!-- end topnav -->
-		
+			
+			<!-- sidenav -->
+			<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a class="passive" href="/">Home</a>
+				<a href="/resume">Resume</a>
+				<a href="/ics">ICS Courses</a>
+				<a href="/data">Data Analytics</a>
+				<a href="/projects">Projects</a> 
+			</div>
+
+			<!-- click triggers openNav -->
+			<span style="fon-size:30px;cursor:pointer"  onclick="openNav()">&#9776;*</span>
+
+			<!-- opens and closes sidenav -->
+			<script>
+			function openNav() {
+
+			}	document.getElementById("mySidenav").style.width ="240px";
+			function closeNav() {
+				document.getElementById("mysidenav").style.width="0";
+			}
+			</script>
+			<!-- end sidenav --> 
 		</head>
 
 		<!-- content -->
