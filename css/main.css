@@ -16,7 +16,7 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #0077B5;
   color: black;
 }
 
@@ -66,5 +66,9 @@
 }
 
 .myPic {
-  border-radius: 50%
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
