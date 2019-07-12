@@ -16,14 +16,14 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #0077B5;
+  background-color: #ddd;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #4CAF50;
-  color: white;
+  color: blue;
 }
 
 .sidenav {
