@@ -60,9 +60,13 @@
   margin-left: 50px;
 }
 
-.footer {  
-  height: 50px;
-  margin-top: -50px;          
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.footer, .push {  
+  height: 50px;         
 }
 
 @media screen and (max-height: 450px) {
