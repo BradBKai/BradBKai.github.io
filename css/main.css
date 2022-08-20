@@ -93,6 +93,6 @@ html, body {
   text-align: center;
 }
 
-#mySideLinks, #myFoot {
-  display: inline;
+li {
+  float: left;
 }
