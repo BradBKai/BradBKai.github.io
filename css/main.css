@@ -94,5 +94,5 @@ html, body {
 }
 
 #mysidenav, #myfooter {
-  display: inline;
+  float: left;
 }
