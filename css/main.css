@@ -93,5 +93,5 @@ html, body {
 }
 
 #myFoot, #mySideLinks {
-  float: left;
+  display: inline;
 }
