@@ -92,7 +92,7 @@ html, body {
   text-align: center;
 }
 
-.tileMe {
+.tileMe li {
   list-style-type: none;
   display: inline;
   float: left;
