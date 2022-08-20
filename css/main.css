@@ -87,7 +87,7 @@ html, body {
   position: relative;
 }
 
-.blurb {
+#blurb {
   position: relative;
   color: #f2f2f2;
   text-align: center;
