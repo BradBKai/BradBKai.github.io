@@ -91,3 +91,15 @@ html, body {
   color: #f2f2f2;
   text-align: center;
 }
+
+.tile li {
+  display: inline;
+  float: left;
+}
+
+.tile a {
+  display: block;
+  padding: 10px;
+  border: 1px;
+  margin-right: 5px;
+}
