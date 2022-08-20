@@ -103,7 +103,7 @@ html, body {
   float: left;
 }
 
-.tile {
+.tile a {
   display: block;
   padding: 0px;
   border: 0px;
