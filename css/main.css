@@ -99,3 +99,7 @@ html, body {
   float:left;
   vertical-align: top;
 }
+
+ul {
+  list-style-type: none;
+}
