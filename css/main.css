@@ -40,9 +40,9 @@
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 5px 0px 0px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 22px;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -100,7 +100,6 @@ html, body {
 
 .navTile li {
   list-style-type: none;
-  padding: 0px 0px 0px 0px;
   float: left;
 }
 
