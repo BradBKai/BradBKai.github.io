@@ -87,12 +87,12 @@ html, body {
   position: relative;
 }
 
-#blurb {
+#blurb, #pic {
   position: relative;
   color: #f2f2f2;
   text-align: center;
 }
 
 li {
-  float: left;
+  display: inline;
 }
