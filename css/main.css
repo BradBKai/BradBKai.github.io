@@ -87,10 +87,13 @@ html, body {
   position: relative;
 }
 
-#blurb, #pic {
-  position: relative;
+#blurb {
   color: #f2f2f2;
   text-align: center;
+}
+
+#pic {
+  position: center;
 }
 
 li {
