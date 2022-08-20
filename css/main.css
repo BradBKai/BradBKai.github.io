@@ -92,6 +92,6 @@ html, body {
   text-align: center;
 }
 
-#myFoot, #mySideLinks, #pic {
+#myFoot, #mySideLinks {
   float: left;
 }
