@@ -92,10 +92,6 @@ html, body {
   text-align: center;
 }
 
-#pic {
-  position: center;
-}
-
-li {
-  display: inline;
+#myFoot, #mySideLinks, #pic {
+  float: left;
 }
