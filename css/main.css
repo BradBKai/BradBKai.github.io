@@ -93,5 +93,8 @@ html, body {
 }
 
 #myFoot, #mySideLinks {
-  display: inline;
+  position:relative;
+  display:block;
+  float:left;
+  vertical-align: top;
 }
