@@ -93,6 +93,6 @@ html, body {
   text-align: center;
 }
 
-#mysidenav, #myfooter {
+#mySideLinks, #myFooter {
   float: left;
 }
