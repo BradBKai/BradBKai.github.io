@@ -101,6 +101,7 @@ html, body {
 .navTile li {
   list-style-type: none;
   float: left;
+  margin: -17px;
 }
 
 .tile a {
