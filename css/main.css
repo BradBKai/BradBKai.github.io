@@ -99,7 +99,6 @@ html, body {
 
 .navTile li {
   list-style-type: none;
-  display: inline;
   float: left;
 }
 
@@ -107,5 +106,5 @@ html, body {
   display: block;
   padding: 0px;
   border: 0px;
-  margin-right: 0px;
+  margin-left: 0px;
 }
