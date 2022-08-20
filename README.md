@@ -3,4 +3,4 @@
 
 <p>I'm a graduate student working on a Master of Science in Computer Information Systems and Business Analystics at West Texas A&M.</p>
 
-<p>I've been working on updating this site and making a few changes from time to time. Please pardon the mess!</p>
+<p>I've been working on updating this site and making a few changes from time to time. Please pardon the mess.</p>
