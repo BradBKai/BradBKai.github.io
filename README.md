@@ -5,4 +5,3 @@
 
 <p>I've been working on updating this site and making a few changes from time to time. Please pardon the mess.</p>
 
-<p>c</p>
